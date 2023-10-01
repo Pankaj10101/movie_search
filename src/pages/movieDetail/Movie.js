@@ -9,7 +9,7 @@ const Movie = () => {
     useEffect(() => {
         getData()
         window.scrollTo(0,0)
-    }, [])
+    })
 
     const getData = () => {
         fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=cb7bd15597eff498435012dae0ca6815&language=en-US`)
