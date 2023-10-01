@@ -1,10 +1,10 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route, useNavigate } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/header/Header";
 import Home from "./pages/home/Home";
 import MovieList from "./components/movieList/MovieList";
 import Movie from "./pages/movieDetail/Movie";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 function App() {
   const [searchData, setSearchData] = useState([]);
   return (

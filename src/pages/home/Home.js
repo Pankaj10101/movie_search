@@ -57,6 +57,7 @@ const Home = ({ searchData }) => {
               >
                 <div className="posterImage">
                   <img
+                  alt="img"
                     src={`https://image.tmdb.org/t/p/original${
                       movie && movie.backdrop_path
                     }`}
